@@ -1,1 +1,16 @@
 
+{
+  "name": "whatsapp-bot (vanitas-md)",
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
+  "repository": "https://github.com/Alfafx12/ggggh",
+  "stack": "container",
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
