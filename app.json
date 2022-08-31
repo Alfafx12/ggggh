@@ -4,13 +4,14 @@
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
-  ],
-  "repository": "https://github.com/Alfafx12/ggggh",
-  "stack": "container",
-  },
-  "addons": [
+}
+{
+  "buildpacks": [
     {
-      "plan": "heroku-postgresql"
+      "url": "https://github.com/heroku/heroku-buildpack-pgbouncer"
+    },
+    {
+      "url": "heroku/node.js"
     }
   ]
 }
