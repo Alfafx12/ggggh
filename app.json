@@ -4,14 +4,14 @@
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
-}
+
 {
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-pgbouncer"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     },
     {
-      "url": "heroku/node.js"
+      "url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/jontewks/puppeteer.tgz"
     }
   ]
 }
